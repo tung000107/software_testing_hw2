@@ -43,7 +43,7 @@
 
 ---
 
-## Appedix
+## Appendix
 ## **AI Interaction Report**
 Representative interactions with AI assistants during the assignment.
 
