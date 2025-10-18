@@ -1,0 +1,30 @@
+import unittest
+
+from Calc import Calculator  # The class we are going to implement
+
+
+class TestCalculator(unittest.TestCase):
+    def test_add(self):
+        calc = Calculator()
+        result = calc.add(2, 3)
+        self.assertEqual(result, 5)  # 2 + 3 = 5
+
+    def test_subtract(self):
+        calc = Calculator()
+        result = calc.subtract(5, 2)
+        self.assertEqual(result, 3)  # 5 - 2 = 3
+
+    def test_multiply(self):
+        calc = Calculator()
+        result = calc.multiply(4, 3)
+        self.assertEqual(result, 12)  # 4 * 3 = 12
+
+    def test_divide(self):
+        calc = Calculator()
+        result = calc.divide(5, 2)
+        self.assertEqual(result, 2.5)  # True division returns float
+        self.assertIsInstance(result, float)  # Division result is float
+
+
+if __name__ == "__main__":
+    unittest.main()
