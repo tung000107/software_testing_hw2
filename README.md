@@ -1,3 +1,6 @@
+# Homework 2: Practice TDD by adding functions to Calc
+#### Student：314554052 / 梁欣童
+
 ## Project Overview
 - **Language / Files**: Python implementation in `Calc.py` with accompanying tests in `CalcTest.py`.
 - **Goal**: Extend `Calculator` beyond addition using test-driven development (TDD) and complete optional exercises from `CalcTDD.pdf`.
@@ -37,8 +40,6 @@
   2. Install `flake8` and `coverage`.
   3. Run `flake8 .` to enforce style.
   4. Execute `coverage run -m unittest discover -s . -p '*Test.py'` and report coverage.
-- This satisfies the optional CI setup with linting and automated tests.
-
 
 ---
 
